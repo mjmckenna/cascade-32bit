@@ -1,0 +1,71 @@
+
+-147.929	34.139	50.000	800.000
+1.657	34.139	50.000	800.000
+
+Mon, Aug 01, 2016      1:19:24 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.658	33.384	168.776	811.000
+
+Mon, Aug 01, 2016      1:53:16 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.652	46.598	50.569	810.000
+
+Mon, Aug 08, 2016      12:07:20 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	40.368	45.924	810.000
+
+Mon, Aug 29, 2016      4:34:05 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	37.367	45.924	805.000
+
+Mon, Aug 29, 2016      4:35:32 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	37.367	26.178	805.000
+
+Mon, Aug 29, 2016      4:37:47 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	37.367	30.234	805.000
+
+Wed, Aug 31, 2016      3:56:14 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	40.651	30.234	804.000
+
+Wed, Aug 31, 2016      3:56:48 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	40.651	59.084	804.000
+
+Wed, Aug 31, 2016      4:00:56 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	40.651	67.568	804.000
+
+Wed, Aug 31, 2016      4:01:22 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	40.651	60.423	804.000
+
+Wed, Aug 31, 2016      4:02:00 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	40.651	55.021	804.000
+
+Wed, Aug 31, 2016      4:04:51 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	40.368	57.971	804.000
+
+Wed, Aug 31, 2016      4:35:42 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	39.040	57.971	806.000
+
+Wed, Aug 31, 2016      4:37:14 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	39.040	63.091	806.000
+
+Thu, Sep 15, 2016      1:57:46 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	39.040	49.261	800.000
+
+Thu, Sep 22, 2016      3:06:36 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.662	39.040	47.450	800.000
+
+Wed, Mar 29, 2017      2:18:28 PM
+S.P.    Flow    Pressure   KPRO Box     
+1.697	41.315	46.083	801.000

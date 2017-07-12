@@ -1,0 +1,5 @@
+KPRO_2010 Install instructions
+
+Copy the KPRO_2010 folder to the C drive so that the path is C:\KPRO_2010
+
+The folder must be placed here so that the program knows where to write and read files from.
