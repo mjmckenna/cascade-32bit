@@ -34,7 +34,7 @@
 		<Item Name="Pressure Control 1.ctl" Type="VI" URL="../../KPRO_2016 subvis/Pressure Control 1.ctl"/>
 		<Item Name="read save configuration file.vi" Type="VI" URL="../read save configuration file.vi"/>
 		<Item Name="SDI-12 Single Calibration output cluster.vi" Type="VI" URL="../../sdi_12/SDI-12 Single Calibration output cluster.vi"/>
-		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../../sdi_12/SDI-12/Public/Utility/Send  Sensor Calibration.vi"/>
+		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../../sdi_12/Send  Sensor Calibration.vi"/>
 		<Item Name="send calibration value loop.vi" Type="VI" URL="../../sdi_12/send calibration value loop.vi"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../../KPRO_2016 subvis/SS Control 7.ctl"/>
 		<Item Name="turn sensor on-off loop.vi" Type="VI" URL="../../sdi_12/turn sensor on-off loop.vi"/>
@@ -127,12 +127,14 @@
 				<Item Name="DTbl Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Compress Digital.vi"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DWDT Analog to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Analog to Digital.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
@@ -198,6 +200,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -276,6 +279,7 @@
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
 				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
+				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
@@ -320,6 +324,8 @@
 			<Item Name="find worksheet index from name.vi" Type="VI" URL="../../sdi_12/find worksheet index from name.vi"/>
 			<Item Name="Flow 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Flow 2016.vi"/>
 			<Item Name="format into Sonde Vertical Graph Data Input.vi" Type="VI" URL="../../format into Sonde Vertical Graph Data Input.vi"/>
+			<Item Name="format into Sonde Vertical Graph Data Input.vi" Type="VI" URL="../../sdi_12/format into Sonde Vertical Graph Data Input.vi"/>
+			<Item Name="format time SDI data into XY plot input.vi" Type="VI" URL="../../sdi_12/format time SDI data into XY plot input.vi"/>
 			<Item Name="get 9V monitor voltage.vi" Type="VI" URL="../get 9V monitor voltage.vi"/>
 			<Item Name="get sample header columns.vi" Type="VI" URL="../../sdi_12/get sample header columns.vi"/>
 			<Item Name="get sample sheet data cells.vi" Type="VI" URL="../../sdi_12/get sample sheet data cells.vi"/>
@@ -360,6 +366,7 @@
 			<Item Name="Sonde Measurement Array to Cluster.vi" Type="VI" URL="../../sdi_12/Sonde Measurement Array to Cluster.vi"/>
 			<Item Name="Sonde Vertical Graph.ctl" Type="VI" URL="../../sdi_12/SDI-12/Sonde Vertical Graph.ctl"/>
 			<Item Name="String Pot 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/String Pot 2016.vi"/>
+			<Item Name="Turn On Sensors.vi" Type="VI" URL="../../sdi_12/Turn On Sensors.vi"/>
 			<Item Name="Turn On Sensors.vi" Type="VI" URL="../../sdi_12/SDI-12/Public/Utility/Turn On Sensors.vi"/>
 			<Item Name="Vertical Chart.ctl" Type="VI" URL="../controls/Vertical Chart.ctl"/>
 			<Item Name="volume integrator 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/volume integrator 2016.vi"/>
