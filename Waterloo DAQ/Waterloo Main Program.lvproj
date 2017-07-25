@@ -11,32 +11,47 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Action Control 1.ctl" Type="VI" URL="../controls/Action Control 1.ctl"/>
+		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
+		<Item Name="calculate current depth.vi" Type="VI" URL="../../KPRO_2016 subvis/calculate current depth.vi"/>
+		<Item Name="calculate sonde parameter cluster.vi" Type="VI" URL="../../sdi_12/calculate sonde parameter cluster.vi"/>
 		<Item Name="Calibrate DO Sensor.vi" Type="VI" URL="../../sdi_12/Calibrate DO Sensor.vi"/>
 		<Item Name="Calibrate ORP Sensor.vi" Type="VI" URL="../../sdi_12/Calibrate ORP Sensor.vi"/>
 		<Item Name="Calibrate Salinity Sensor.vi" Type="VI" URL="../../sdi_12/Calibrate Salinity Sensor.vi"/>
 		<Item Name="Calibrate SC Sensor.vi" Type="VI" URL="../../sdi_12/Calibrate SC Sensor.vi"/>
 		<Item Name="Cascade front panel.vi" Type="VI" URL="../Cascade front panel.vi"/>
+		<Item Name="cell pair to sonde value cluster.vi" Type="VI" URL="../../sdi_12/cell pair to sonde value cluster.vi"/>
 		<Item Name="Control 2.ctl" Type="VI" URL="../../KPRO_2016 subvis/Control 2.ctl"/>
 		<Item Name="Control 9.ctl" Type="VI" URL="../../KPRO_2016 subvis/Control 9.ctl"/>
+		<Item Name="convert cell pair to dbl.vi" Type="VI" URL="../../sdi_12/convert cell pair to dbl.vi"/>
+		<Item Name="convert cell to dbl.vi" Type="VI" URL="../../sdi_12/convert cell to dbl.vi"/>
 		<Item Name="Depth Control.ctl" Type="VI" URL="../../KPRO_2016 subvis/Depth Control.ctl"/>
 		<Item Name="Drive Rate Control 5.ctl" Type="VI" URL="../../KPRO_2016 subvis/Drive Rate Control 5.ctl"/>
+		<Item Name="Finished Collection Write File.vi" Type="VI" URL="../../KPRO_2016 subvis/Finished Collection Write File.vi"/>
+		<Item Name="format into Sonde Data Array.vi" Type="VI" URL="../../sdi_12/format into Sonde Data Array.vi"/>
+		<Item Name="Generate Array Row 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Generate Array Row 2016.vi"/>
 		<Item Name="Graph Controls 2.ctl" Type="VI" URL="../../KPRO_2016 subvis/Graph Controls 2.ctl"/>
 		<Item Name="Ik control.ctl" Type="VI" URL="../../KPRO_2016 subvis/Ik control.ctl"/>
 		<Item Name="Ion Slope Control 8.ctl" Type="VI" URL="../../KPRO_2016 subvis/Ion Slope Control 8.ctl"/>
 		<Item Name="kpro 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/kpro 2016.vi"/>
 		<Item Name="Kpro hydraulic measurement cluster.ctl" Type="VI" URL="../controls/Kpro hydraulic measurement cluster.ctl"/>
+		<Item Name="Kpro Read String Pot 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Kpro Read String Pot 2016.vi"/>
 		<Item Name="KPRO State Controller 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/KPRO State Controller 2016.vi"/>
 		<Item Name="MCC DAQ Readings.ctl" Type="VI" URL="../controls/MCC DAQ Readings.ctl"/>
 		<Item Name="MCC DAQ Setup.ctl" Type="VI" URL="../controls/MCC DAQ Setup.ctl"/>
 		<Item Name="Measure DAQ Voltages.vi" Type="VI" URL="../Measure DAQ Voltages.vi"/>
 		<Item Name="New Stainless Correction Pop Up 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/New Stainless Correction Pop Up 2016.vi"/>
 		<Item Name="One Element Stream-t&apos;Action Control 1.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/One Element Stream-t&apos;Action Control 1.ctl&apos;.lvlib"/>
+		<Item Name="populate sonde row cluster from row.vi" Type="VI" URL="../../sdi_12/populate sonde row cluster from row.vi"/>
 		<Item Name="Pressure Control 1.ctl" Type="VI" URL="../../KPRO_2016 subvis/Pressure Control 1.ctl"/>
 		<Item Name="read save configuration file.vi" Type="VI" URL="../read save configuration file.vi"/>
 		<Item Name="SDI-12 Single Calibration output cluster.vi" Type="VI" URL="../../sdi_12/SDI-12 Single Calibration output cluster.vi"/>
 		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../../sdi_12/Send  Sensor Calibration.vi"/>
 		<Item Name="send calibration value loop.vi" Type="VI" URL="../../sdi_12/send calibration value loop.vi"/>
+		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
+		<Item Name="Sonde Value Percent Tol.ctl" Type="VI" URL="../../sdi_12/Sonde Value Percent Tol.ctl"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../../KPRO_2016 subvis/SS Control 7.ctl"/>
+		<Item Name="test report gen.vi" Type="VI" URL="../../sdi_12/test report gen.vi"/>
+		<Item Name="Turn On Off Circulator.vi" Type="VI" URL="../../sdi_12/Turn On Off Circulator.vi"/>
 		<Item Name="turn sensor on-off loop.vi" Type="VI" URL="../../sdi_12/turn sensor on-off loop.vi"/>
 		<Item Name="volume integrator.vi" Type="VI" URL="../../KPRO_2016 subvis/volume integrator.vi"/>
 		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../../sdi_12/wait for bytes at serial port.vi"/>
@@ -48,7 +63,17 @@
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
 				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
+				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
+				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
 				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
 				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
 				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
@@ -80,6 +105,14 @@
 				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
 				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
@@ -100,7 +133,6 @@
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
-				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Bytes At Serial Port.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -112,8 +144,12 @@
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
@@ -143,6 +179,7 @@
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -168,7 +205,7 @@
 				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
-				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
@@ -192,9 +229,6 @@
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Read.vi"/>
-				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Serial Port Write.vi"/>
-				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -288,26 +322,29 @@
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="AD6B Input Module - Read Data.VI" Type="VI" URL="../../KPRO_lv2015/AD6B.LLB/AD6B Input Module - Read Data.VI"/>
-			<Item Name="AD6B Serial Port Receive Message.vi" Type="VI" URL="../../KPRO_lv2015/AD6B_SUB.LLB/AD6B Serial Port Receive Message.vi"/>
-			<Item Name="AD6B Serial Port Send Message.vi" Type="VI" URL="../../KPRO_lv2015/AD6B_SUB.LLB/AD6B Serial Port Send Message.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Array to Graph 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Array to Graph 2016.vi"/>
+			<Item Name="Array to Graph.vi" Type="VI" URL="../../KPRO_lv2015/utilities/Array to Graph.vi"/>
+			<Item Name="Array to Plot 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Array to Plot 2016.vi"/>
 			<Item Name="Aux Sensor.ctl" Type="VI" URL="../controls/Aux Sensor.ctl"/>
 			<Item Name="boolean debounce 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/boolean debounce 2016.vi"/>
 			<Item Name="Boxcar filter2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Boxcar filter2016.vi"/>
+			<Item Name="CAL_FLOW_SENSOR 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/CAL_FLOW_SENSOR 2016.vi"/>
+			<Item Name="CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/CAL_PRESSURE_TRANSDUCER 2016.vi"/>
 			<Item Name="Calculate Rate from Num Channels and Max Rate.vi" Type="VI" URL="../../sdi_12/Calculate Rate from Num Channels and Max Rate.vi"/>
+			<Item Name="CALIBRATE 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/CALIBRATE 2016.vi"/>
 			<Item Name="Calibrate pH Sensor.vi" Type="VI" URL="../../sdi_12/SDI-12/Public/Utility/Calibrate pH Sensor.vi"/>
+			<Item Name="CALIBRATION_SUMMARY.vi" Type="VI" URL="../../KPRO_lv2015/utilities/CALIBRATION_SUMMARY.vi"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="CHECK ADDRESS AND CHECKSUM.VI" Type="VI" URL="../../KPRO_lv2015/AD6B_SUB.LLB/CHECK ADDRESS AND CHECKSUM.VI"/>
-			<Item Name="CHECK READ RESPONSE.VI" Type="VI" URL="../../KPRO_lv2015/AD6B_SUB.LLB/CHECK READ RESPONSE.VI"/>
 			<Item Name="close excel file if open.vi" Type="VI" URL="../../sdi_12/close excel file if open.vi"/>
 			<Item Name="copy excel template.vi" Type="VI" URL="../../sdi_12/copy excel template.vi"/>
 			<Item Name="correct depth etc 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/correct depth etc 2016.vi"/>
@@ -318,12 +355,13 @@
 			<Item Name="depth rate.vi" Type="VI" URL="../../KPRO_lv2015/utilities/depth rate.vi"/>
 			<Item Name="depth read 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/depth read 2016.vi"/>
 			<Item Name="depth threshold test 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/depth threshold test 2016.vi"/>
+			<Item Name="DHT Pressure 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/DHT Pressure 2016.vi"/>
 			<Item Name="excel label to row and column.vi" Type="VI" URL="../../sdi_12/excel label to row and column.vi"/>
+			<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
 			<Item Name="find and open select worksheet.vi" Type="VI" URL="../../sdi_12/find and open select worksheet.vi"/>
 			<Item Name="find last occupied cell.vi" Type="VI" URL="../../sdi_12/find last occupied cell.vi"/>
 			<Item Name="find worksheet index from name.vi" Type="VI" URL="../../sdi_12/find worksheet index from name.vi"/>
 			<Item Name="Flow 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Flow 2016.vi"/>
-			<Item Name="format into Sonde Vertical Graph Data Input.vi" Type="VI" URL="../../format into Sonde Vertical Graph Data Input.vi"/>
 			<Item Name="format into Sonde Vertical Graph Data Input.vi" Type="VI" URL="../../sdi_12/format into Sonde Vertical Graph Data Input.vi"/>
 			<Item Name="format time SDI data into XY plot input.vi" Type="VI" URL="../../sdi_12/format time SDI data into XY plot input.vi"/>
 			<Item Name="get 9V monitor voltage.vi" Type="VI" URL="../get 9V monitor voltage.vi"/>
@@ -333,27 +371,30 @@
 			<Item Name="Global_SIM_switch.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/Global_SIM_switch.vi"/>
 			<Item Name="Groundwater header.ctl" Type="VI" URL="../../sdi_12/Groundwater header.ctl"/>
 			<Item Name="groundwater log header.vi" Type="VI" URL="../../sdi_12/groundwater log header.vi"/>
+			<Item Name="IKGMS.vi" Type="VI" URL="../../KPRO_lv2015/state behavior/IKGMS.vi"/>
 			<Item Name="In-Line-Pressure 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/In-Line-Pressure 2016.vi"/>
 			<Item Name="Insert date time into cell.vi" Type="VI" URL="../../sdi_12/Insert date time into cell.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Kpro Globals.vi" Type="VI" URL="../../KPRO_lv2015/Kpro Globals.vi"/>
+			<Item Name="Kpro pressure measurement cluster.ctl" Type="VI" URL="../controls/Kpro pressure measurement cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Module &amp; Board Info.gbl" Type="VI" URL="../../KPRO_lv2015/AD6B_SUB.LLB/Module &amp; Board Info.gbl"/>
+			<Item Name="numrowglobal.vi" Type="VI" URL="../../KPRO_lv2015/utilities/numrowglobal.vi"/>
 			<Item Name="open excel get worksheet names.vi" Type="VI" URL="../../sdi_12/open excel get worksheet names.vi"/>
 			<Item Name="open select sample sheet.vi" Type="VI" URL="../../sdi_12/open select sample sheet.vi"/>
 			<Item Name="Physical Channels to Number of channels.vi" Type="VI" URL="../../sdi_12/Physical Channels to Number of channels.vi"/>
 			<Item Name="Pipe1Logic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/Pipe1Logic/Pipe1Logic.lvclass"/>
+			<Item Name="populate sonde row cluster from sonde data cluster.vi" Type="VI" URL="../../sdi_12/populate sonde row cluster from sonde data cluster.vi"/>
 			<Item Name="prepend time to sonde data array.vi" Type="VI" URL="../../sdi_12/prepend time to sonde data array.vi"/>
-			<Item Name="Pressure 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Pressure 2016.vi"/>
 			<Item Name="pressure and IK2 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/pressure and IK2 2016.vi"/>
 			<Item Name="pressure and IK2.vi" Type="VI" URL="../../KPRO_lv2015/utilities/pressure and IK2.vi"/>
+			<Item Name="prompt_and_enter_value 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/prompt_and_enter_value 2016.vi"/>
 			<Item Name="prompt_and_enter_value2.vi" Type="VI" URL="../../KPRO_lv2015/utilities/prompt_and_enter_value2.vi"/>
+			<Item Name="prompt_string.vi" Type="VI" URL="../../KPRO_lv2015/utilities/prompt_string.vi"/>
 			<Item Name="RANDOM_RANGE.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/RANDOM_RANGE.vi"/>
 			<Item Name="read 12V monitor from Z SDI-12 address.vi" Type="VI" URL="../../sdi_12/read 12V monitor from Z SDI-12 address.vi"/>
 			<Item Name="sample data row cluster.ctl" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/sample data row cluster.ctl"/>
-			<Item Name="SCALE MODULE DATA.VI" Type="VI" URL="../../KPRO_lv2015/AD6B_SUB.LLB/SCALE MODULE DATA.VI"/>
 			<Item Name="SDI-12 Continuous Operations.vi" Type="VI" URL="../../sdi_12/SDI-12 Continuous Operations.vi"/>
 			<Item Name="SDI-12 Single Operation with output cluster.vi" Type="VI" URL="../../sdi_12/SDI-12 Single Operation with output cluster.vi"/>
 			<Item Name="SDI-12 Single Operation.vi" Type="VI" URL="../../sdi_12/SDI-12 Single Operation.vi"/>
@@ -361,13 +402,17 @@
 			<Item Name="search for com resources.vi" Type="VI" URL="../../sdi_12/search for com resources.vi"/>
 			<Item Name="search for Quanta Sonde devices.vi" Type="VI" URL="../../sdi_12/search for Quanta Sonde devices.vi"/>
 			<Item Name="Send Identification.vi" Type="VI" URL="../../sdi_12/SDI-12/Public/Utility/Send Identification.vi"/>
+			<Item Name="SIM_Flow.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/SIM_Flow.vi"/>
+			<Item Name="SIM_Pressure.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/SIM_Pressure.vi"/>
 			<Item Name="SIM_String Pot.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/SIM_String Pot.vi"/>
 			<Item Name="sonde cluster.ctl" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/sonde cluster.ctl"/>
 			<Item Name="Sonde Measurement Array to Cluster.vi" Type="VI" URL="../../sdi_12/Sonde Measurement Array to Cluster.vi"/>
 			<Item Name="Sonde Vertical Graph.ctl" Type="VI" URL="../../sdi_12/SDI-12/Sonde Vertical Graph.ctl"/>
 			<Item Name="String Pot 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/String Pot 2016.vi"/>
+			<Item Name="STRING_POT_CAL 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/STRING_POT_CAL 2016.vi"/>
 			<Item Name="Turn On Sensors.vi" Type="VI" URL="../../sdi_12/Turn On Sensors.vi"/>
-			<Item Name="Turn On Sensors.vi" Type="VI" URL="../../sdi_12/SDI-12/Public/Utility/Turn On Sensors.vi"/>
+			<Item Name="up hole Pressure 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/up hole Pressure 2016.vi"/>
+			<Item Name="Up Hole PRESSURE_CAL 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Up Hole PRESSURE_CAL 2016.vi"/>
 			<Item Name="Vertical Chart.ctl" Type="VI" URL="../controls/Vertical Chart.ctl"/>
 			<Item Name="volume integrator 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/volume integrator 2016.vi"/>
 			<Item Name="Write Cell and Format.vi" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/Write Cell and Format.vi"/>
@@ -379,6 +424,47 @@
 			<Item Name="write out sonde row.vi" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
 			<Item Name="write time cell with column offset.vi" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/write time cell with column offset.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="cascade" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5E703668-B13D-4DDA-82CC-DC11C9DD3F3F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{FD68D3A1-A293-459C-9621-E0BECD4FC85C}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Microsoft.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A8119BC6-9167-4FB6-8745-77BA70AE986B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">cascade</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/cascade</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Cascade.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade/Cascade.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{647DDB96-D357-4E8F-8781-BEF47D910027}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade front panel.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">cascade</Property>
+				<Property Name="TgtF_internalName" Type="Str">cascade</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">cascade</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9E43D8B0-62C9-441F-85B9-45AC8E110F21}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Cascade.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
