@@ -48,11 +48,13 @@
 		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../../sdi_12/Send  Sensor Calibration.vi"/>
 		<Item Name="send calibration value loop.vi" Type="VI" URL="../../sdi_12/send calibration value loop.vi"/>
 		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
+		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
 		<Item Name="Sonde Value Percent Tol.ctl" Type="VI" URL="../../sdi_12/Sonde Value Percent Tol.ctl"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../../KPRO_2016 subvis/SS Control 7.ctl"/>
 		<Item Name="test report gen.vi" Type="VI" URL="../../sdi_12/test report gen.vi"/>
 		<Item Name="Turn On Off Circulator.vi" Type="VI" URL="../../sdi_12/Turn On Off Circulator.vi"/>
 		<Item Name="turn sensor on-off loop.vi" Type="VI" URL="../../sdi_12/turn sensor on-off loop.vi"/>
+		<Item Name="Untitled 2.vi" Type="VI" URL="../../KPRO_2016 subvis/Untitled 2.vi"/>
 		<Item Name="volume integrator.vi" Type="VI" URL="../../KPRO_2016 subvis/volume integrator.vi"/>
 		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../../sdi_12/wait for bytes at serial port.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
