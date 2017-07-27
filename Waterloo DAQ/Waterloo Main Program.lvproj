@@ -144,12 +144,8 @@
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
@@ -205,7 +201,6 @@
 				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
@@ -322,7 +317,6 @@
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
@@ -346,6 +340,7 @@
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="close excel file if open.vi" Type="VI" URL="../../sdi_12/close excel file if open.vi"/>
+			<Item Name="convert sensor voltage to real measurements.vi" Type="VI" URL="../../KPRO_2016 subvis/convert sensor voltage to real measurements.vi"/>
 			<Item Name="copy excel template.vi" Type="VI" URL="../../sdi_12/copy excel template.vi"/>
 			<Item Name="correct depth etc 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/correct depth etc 2016.vi"/>
 			<Item Name="create DAQ strings.vi" Type="VI" URL="../create DAQ strings.vi"/>
@@ -353,7 +348,7 @@
 			<Item Name="Depth and Stainless Correction Pop Up 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Depth and Stainless Correction Pop Up 2016.vi"/>
 			<Item Name="depth rate 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/depth rate 2016.vi"/>
 			<Item Name="depth rate.vi" Type="VI" URL="../../KPRO_lv2015/utilities/depth rate.vi"/>
-			<Item Name="depth read 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/depth read 2016.vi"/>
+			<Item Name="depth read from string pot 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/depth read from string pot 2016.vi"/>
 			<Item Name="depth threshold test 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/depth threshold test 2016.vi"/>
 			<Item Name="DHT Pressure 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/DHT Pressure 2016.vi"/>
 			<Item Name="excel label to row and column.vi" Type="VI" URL="../../sdi_12/excel label to row and column.vi"/>
@@ -367,11 +362,11 @@
 			<Item Name="get 9V monitor voltage.vi" Type="VI" URL="../get 9V monitor voltage.vi"/>
 			<Item Name="get sample header columns.vi" Type="VI" URL="../../sdi_12/get sample header columns.vi"/>
 			<Item Name="get sample sheet data cells.vi" Type="VI" URL="../../sdi_12/get sample sheet data cells.vi"/>
+			<Item Name="Get_KPRO_data_from_file 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Get_KPRO_data_from_file 2016.vi"/>
 			<Item Name="Get_SLOPE_data_from_file 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/Get_SLOPE_data_from_file 2016.vi"/>
 			<Item Name="Global_SIM_switch.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/Global_SIM_switch.vi"/>
 			<Item Name="Groundwater header.ctl" Type="VI" URL="../../sdi_12/Groundwater header.ctl"/>
 			<Item Name="groundwater log header.vi" Type="VI" URL="../../sdi_12/groundwater log header.vi"/>
-			<Item Name="IKGMS.vi" Type="VI" URL="../../KPRO_lv2015/state behavior/IKGMS.vi"/>
 			<Item Name="In-Line-Pressure 2016.vi" Type="VI" URL="../../KPRO_2016 subvis/In-Line-Pressure 2016.vi"/>
 			<Item Name="Insert date time into cell.vi" Type="VI" URL="../../sdi_12/Insert date time into cell.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -380,7 +375,7 @@
 			<Item Name="Kpro Globals.vi" Type="VI" URL="../../KPRO_lv2015/Kpro Globals.vi"/>
 			<Item Name="Kpro pressure measurement cluster.ctl" Type="VI" URL="../controls/Kpro pressure measurement cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="numrowglobal.vi" Type="VI" URL="../../KPRO_lv2015/utilities/numrowglobal.vi"/>
+			<Item Name="measure down hole pressure and save to csv file.vi" Type="VI" URL="../../KPRO_2016 subvis/measure down hole pressure and save to csv file.vi"/>
 			<Item Name="open excel get worksheet names.vi" Type="VI" URL="../../sdi_12/open excel get worksheet names.vi"/>
 			<Item Name="open select sample sheet.vi" Type="VI" URL="../../sdi_12/open select sample sheet.vi"/>
 			<Item Name="Physical Channels to Number of channels.vi" Type="VI" URL="../../sdi_12/Physical Channels to Number of channels.vi"/>
@@ -402,6 +397,7 @@
 			<Item Name="search for com resources.vi" Type="VI" URL="../../sdi_12/search for com resources.vi"/>
 			<Item Name="search for Quanta Sonde devices.vi" Type="VI" URL="../../sdi_12/search for Quanta Sonde devices.vi"/>
 			<Item Name="Send Identification.vi" Type="VI" URL="../../sdi_12/SDI-12/Public/Utility/Send Identification.vi"/>
+			<Item Name="Sensor Physical Measurements.ctl" Type="VI" URL="../../KPRO_2016 subvis/Sensor Physical Measurements.ctl"/>
 			<Item Name="SIM_Flow.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/SIM_Flow.vi"/>
 			<Item Name="SIM_Pressure.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/SIM_Pressure.vi"/>
 			<Item Name="SIM_String Pot.vi" Type="VI" URL="../../KPRO_lv2015/ad interface/SIM_String Pot.vi"/>
@@ -420,6 +416,7 @@
 			<Item Name="write Cell String to excel location.vi" Type="VI" URL="../../sdi_12/write Cell String to excel location.vi"/>
 			<Item Name="write comment cell with column offset.vi" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/write comment cell with column offset.vi"/>
 			<Item Name="write data cell with column offset.vi" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/write data cell with column offset.vi"/>
+			<Item Name="write KPRO file.vi" Type="VI" URL="../../KPRO_2016 subvis/write KPRO file.vi"/>
 			<Item Name="write out sonde data.vi" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/write out sonde data.vi"/>
 			<Item Name="write out sonde row.vi" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
 			<Item Name="write time cell with column offset.vi" Type="VI" URL="../../activeXtest/activeXtest 2015 Folder/write time cell with column offset.vi"/>

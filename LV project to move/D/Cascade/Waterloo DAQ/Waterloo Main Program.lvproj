@@ -24,9 +24,10 @@
 		<Item Name="Control 9.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Control 9.ctl"/>
 		<Item Name="convert cell pair to dbl.vi" Type="VI" URL="../../../../../sdi_12/convert cell pair to dbl.vi"/>
 		<Item Name="convert cell to dbl.vi" Type="VI" URL="../../../../../sdi_12/convert cell to dbl.vi"/>
-		<Item Name="convert sensor voltage to real measurements.vi" Type="VI" URL="../../../../../Data/Output Files/convert sensor voltage to real measurements.vi"/>
+		<Item Name="convert sensor voltage to real measurements.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/convert sensor voltage to real measurements.vi"/>
 		<Item Name="Depth Control.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Depth Control.ctl"/>
 		<Item Name="Drive Rate Control 5.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Drive Rate Control 5.ctl"/>
+		<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
 		<Item Name="Finished Collection Write File.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Finished Collection Write File.vi"/>
 		<Item Name="format into Sonde Data Array.vi" Type="VI" URL="../../../../../sdi_12/format into Sonde Data Array.vi"/>
 		<Item Name="Generate Array Row 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Generate Array Row 2016.vi"/>
@@ -58,6 +59,7 @@
 		<Item Name="turn sensor on-off loop.vi" Type="VI" URL="../../../../../sdi_12/turn sensor on-off loop.vi"/>
 		<Item Name="volume integrator.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/volume integrator.vi"/>
 		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../../../../../sdi_12/wait for bytes at serial port.vi"/>
+		<Item Name="write IKGMS file.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/write IKGMS file.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -212,7 +214,6 @@
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
 				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
@@ -355,7 +356,6 @@
 			<Item Name="depth threshold test 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/depth threshold test 2016.vi"/>
 			<Item Name="DHT Pressure 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/DHT Pressure 2016.vi"/>
 			<Item Name="excel label to row and column.vi" Type="VI" URL="../../../../../sdi_12/excel label to row and column.vi"/>
-			<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
 			<Item Name="find and open select worksheet.vi" Type="VI" URL="../../../../../sdi_12/find and open select worksheet.vi"/>
 			<Item Name="find last occupied cell.vi" Type="VI" URL="../../../../../sdi_12/find last occupied cell.vi"/>
 			<Item Name="find worksheet index from name.vi" Type="VI" URL="../../../../../sdi_12/find worksheet index from name.vi"/>
@@ -417,6 +417,7 @@
 			<Item Name="write Cell String to excel location.vi" Type="VI" URL="../../../../../sdi_12/write Cell String to excel location.vi"/>
 			<Item Name="write comment cell with column offset.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write comment cell with column offset.vi"/>
 			<Item Name="write data cell with column offset.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write data cell with column offset.vi"/>
+			<Item Name="write KPRO file.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/write KPRO file.vi"/>
 			<Item Name="write out sonde data.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write out sonde data.vi"/>
 			<Item Name="write out sonde row.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
 			<Item Name="write time cell with column offset.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write time cell with column offset.vi"/>
@@ -438,7 +439,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade/Cascade.exe</Property>
