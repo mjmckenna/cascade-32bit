@@ -10,53 +10,51 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Action Control 1.ctl" Type="VI" URL="../../../../../Waterloo DAQ/controls/Action Control 1.ctl"/>
-		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
-		<Item Name="calculate current depth.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/calculate current depth.vi"/>
-		<Item Name="calculate sonde parameter cluster.vi" Type="VI" URL="../../../../../sdi_12/calculate sonde parameter cluster.vi"/>
-		<Item Name="Calibrate DO Sensor.vi" Type="VI" URL="../../../../../sdi_12/Calibrate DO Sensor.vi"/>
-		<Item Name="Calibrate ORP Sensor.vi" Type="VI" URL="../../../../../sdi_12/Calibrate ORP Sensor.vi"/>
-		<Item Name="Calibrate Salinity Sensor.vi" Type="VI" URL="../../../../../sdi_12/Calibrate Salinity Sensor.vi"/>
-		<Item Name="Calibrate SC Sensor.vi" Type="VI" URL="../../../../../sdi_12/Calibrate SC Sensor.vi"/>
-		<Item Name="Cascade front panel.vi" Type="VI" URL="../../../../../Waterloo DAQ/Cascade front panel.vi"/>
-		<Item Name="cell pair to sonde value cluster.vi" Type="VI" URL="../../../../../sdi_12/cell pair to sonde value cluster.vi"/>
-		<Item Name="Control 2.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Control 2.ctl"/>
-		<Item Name="Control 9.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Control 9.ctl"/>
-		<Item Name="convert cell pair to dbl.vi" Type="VI" URL="../../../../../sdi_12/convert cell pair to dbl.vi"/>
-		<Item Name="convert cell to dbl.vi" Type="VI" URL="../../../../../sdi_12/convert cell to dbl.vi"/>
-		<Item Name="Depth Control.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Depth Control.ctl"/>
-		<Item Name="Drive Rate Control 5.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Drive Rate Control 5.ctl"/>
-		<Item Name="Finished Collection Write File.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Finished Collection Write File.vi"/>
-		<Item Name="format into Sonde Data Array.vi" Type="VI" URL="../../../../../sdi_12/format into Sonde Data Array.vi"/>
-		<Item Name="Generate Array Row 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Generate Array Row 2016.vi"/>
-		<Item Name="Graph Controls 2.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Graph Controls 2.ctl"/>
-		<Item Name="Ik control.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Ik control.ctl"/>
-		<Item Name="Ion Slope Control 8.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Ion Slope Control 8.ctl"/>
-		<Item Name="kpro 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/kpro 2016.vi"/>
-		<Item Name="Kpro hydraulic measurement cluster.ctl" Type="VI" URL="../../../../../Waterloo DAQ/controls/Kpro hydraulic measurement cluster.ctl"/>
-		<Item Name="Kpro Read String Pot 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Kpro Read String Pot 2016.vi"/>
-		<Item Name="KPRO State Controller 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/KPRO State Controller 2016.vi"/>
-		<Item Name="MCC DAQ Readings.ctl" Type="VI" URL="../../../../../Waterloo DAQ/controls/MCC DAQ Readings.ctl"/>
-		<Item Name="MCC DAQ Setup.ctl" Type="VI" URL="../../../../../Waterloo DAQ/controls/MCC DAQ Setup.ctl"/>
-		<Item Name="Measure DAQ Voltages.vi" Type="VI" URL="../../../../../Waterloo DAQ/Measure DAQ Voltages.vi"/>
-		<Item Name="New Stainless Correction Pop Up 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/New Stainless Correction Pop Up 2016.vi"/>
+		<Item Name="Action Control 1.ctl" Type="VI" URL="../controls/Action Control 1.ctl"/>
+		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
+		<Item Name="calculate current depth.vi" Type="VI" URL="../KPRO_2016 subvis/calculate current depth.vi"/>
+		<Item Name="Calibrate DO Sensor.vi" Type="VI" URL="../sdi_12/Calibrate DO Sensor.vi"/>
+		<Item Name="Cascade front panel.vi" Type="VI" URL="../Cascade front panel.vi"/>
+		<Item Name="cell pair to sonde value cluster.vi" Type="VI" URL="../sdi_12/cell pair to sonde value cluster.vi"/>
+		<Item Name="Control 9.ctl" Type="VI" URL="../KPRO_2016 subvis/Control 9.ctl"/>
+		<Item Name="convert cell pair to dbl.vi" Type="VI" URL="../sdi_12/convert cell pair to dbl.vi"/>
+		<Item Name="convert cell to dbl.vi" Type="VI" URL="../sdi_12/convert cell to dbl.vi"/>
+		<Item Name="Depth Control.ctl" Type="VI" URL="../KPRO_2016 subvis/Depth Control.ctl"/>
+		<Item Name="Drive Rate Control 5.ctl" Type="VI" URL="../KPRO_2016 subvis/Drive Rate Control 5.ctl"/>
+		<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
+		<Item Name="Finished Collection Write File.vi" Type="VI" URL="../KPRO_2016 subvis/Finished Collection Write File.vi"/>
+		<Item Name="format into Sonde Data Array.vi" Type="VI" URL="../sdi_12/format into Sonde Data Array.vi"/>
+		<Item Name="Graph Controls 2.ctl" Type="VI" URL="../KPRO_2016 subvis/Graph Controls 2.ctl"/>
+		<Item Name="groundwater log header.vi" Type="VI" URL="../sdi_12/groundwater log header.vi"/>
+		<Item Name="Ik control.ctl" Type="VI" URL="../KPRO_2016 subvis/Ik control.ctl"/>
+		<Item Name="Ion Slope Control 8.ctl" Type="VI" URL="../KPRO_2016 subvis/Ion Slope Control 8.ctl"/>
+		<Item Name="kpro 2016.vi" Type="VI" URL="../KPRO_2016 subvis/kpro 2016.vi"/>
+		<Item Name="Kpro Read String Pot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Kpro Read String Pot 2016.vi"/>
+		<Item Name="KPRO State Controller 2016.vi" Type="VI" URL="../KPRO_2016 subvis/KPRO State Controller 2016.vi"/>
+		<Item Name="MCC DAQ Readings.ctl" Type="VI" URL="../controls/MCC DAQ Readings.ctl"/>
+		<Item Name="MCC DAQ Setup.ctl" Type="VI" URL="../controls/MCC DAQ Setup.ctl"/>
+		<Item Name="Measure DAQ Voltages.vi" Type="VI" URL="../Measure DAQ Voltages.vi"/>
+		<Item Name="measure down hole pressure and save to csv file.vi" Type="VI" URL="../KPRO_2016 subvis/measure down hole pressure and save to csv file.vi"/>
+		<Item Name="New Stainless Correction Pop Up 2016.vi" Type="VI" URL="../KPRO_2016 subvis/New Stainless Correction Pop Up 2016.vi"/>
 		<Item Name="One Element Stream-t&apos;Action Control 1.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/One Element Stream-t&apos;Action Control 1.ctl&apos;.lvlib"/>
-		<Item Name="populate sonde row cluster from row.vi" Type="VI" URL="../../../../../sdi_12/populate sonde row cluster from row.vi"/>
-		<Item Name="Pressure Control 1.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Pressure Control 1.ctl"/>
-		<Item Name="read save configuration file.vi" Type="VI" URL="../../../../../Waterloo DAQ/read save configuration file.vi"/>
-		<Item Name="SDI-12 Single Calibration output cluster.vi" Type="VI" URL="../../../../../sdi_12/SDI-12 Single Calibration output cluster.vi"/>
-		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../../../../../sdi_12/Send  Sensor Calibration.vi"/>
-		<Item Name="send calibration value loop.vi" Type="VI" URL="../../../../../sdi_12/send calibration value loop.vi"/>
-		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
-		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
-		<Item Name="Sonde Value Percent Tol.ctl" Type="VI" URL="../../../../../sdi_12/Sonde Value Percent Tol.ctl"/>
-		<Item Name="SS Control 7.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/SS Control 7.ctl"/>
-		<Item Name="test report gen.vi" Type="VI" URL="../../../../../sdi_12/test report gen.vi"/>
-		<Item Name="Turn On Off Circulator.vi" Type="VI" URL="../../../../../sdi_12/Turn On Off Circulator.vi"/>
-		<Item Name="turn sensor on-off loop.vi" Type="VI" URL="../../../../../sdi_12/turn sensor on-off loop.vi"/>
-		<Item Name="Untitled 2.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Untitled 2.vi"/>
-		<Item Name="volume integrator.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/volume integrator.vi"/>
-		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../../../../../sdi_12/wait for bytes at serial port.vi"/>
+		<Item Name="populate sonde row cluster from row.vi" Type="VI" URL="../sdi_12/populate sonde row cluster from row.vi"/>
+		<Item Name="Pressure Control 1.ctl" Type="VI" URL="../KPRO_2016 subvis/Pressure Control 1.ctl"/>
+		<Item Name="read save configuration file.vi" Type="VI" URL="../read save configuration file.vi"/>
+		<Item Name="SDI-12 Single Calibration output cluster.vi" Type="VI" URL="../sdi_12/SDI-12 Single Calibration output cluster.vi"/>
+		<Item Name="SDI-12.lvlib" Type="Library" URL="../sdi_12/SDI-12/SDI-12.lvlib"/>
+		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../sdi_12/Send  Sensor Calibration.vi"/>
+		<Item Name="send calibration value loop.vi" Type="VI" URL="../sdi_12/send calibration value loop.vi"/>
+		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
+		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
+		<Item Name="SS Control 7.ctl" Type="VI" URL="../KPRO_2016 subvis/SS Control 7.ctl"/>
+		<Item Name="test report gen.vi" Type="VI" URL="../sdi_12/test report gen.vi"/>
+		<Item Name="Turn On Off Circulator.vi" Type="VI" URL="../sdi_12/Turn On Off Circulator.vi"/>
+		<Item Name="turn sensor on-off loop.vi" Type="VI" URL="../sdi_12/turn sensor on-off loop.vi"/>
+		<Item Name="Untitled 2.vi" Type="VI" URL="../KPRO_2016 subvis/Untitled 2.vi"/>
+		<Item Name="Up Hole PRESSURE_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Up Hole PRESSURE_CAL 2016.vi"/>
+		<Item Name="volume integrator.vi" Type="VI" URL="../KPRO_2016 subvis/volume integrator.vi"/>
+		<Item Name="wait for bytes at serial port.vi" Type="VI" URL="../sdi_12/wait for bytes at serial port.vi"/>
+		<Item Name="write out sonde row.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -327,101 +325,101 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Array to Graph 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Array to Graph 2016.vi"/>
-			<Item Name="Array to Graph.vi" Type="VI" URL="../../../../../KPRO_lv2015/utilities/Array to Graph.vi"/>
-			<Item Name="Array to Plot 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Array to Plot 2016.vi"/>
-			<Item Name="Aux Sensor.ctl" Type="VI" URL="../../../../../Waterloo DAQ/controls/Aux Sensor.ctl"/>
-			<Item Name="boolean debounce 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/boolean debounce 2016.vi"/>
-			<Item Name="Boxcar filter2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Boxcar filter2016.vi"/>
-			<Item Name="CAL_FLOW_SENSOR 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/CAL_FLOW_SENSOR 2016.vi"/>
-			<Item Name="CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/CAL_PRESSURE_TRANSDUCER 2016.vi"/>
-			<Item Name="Calculate Rate from Num Channels and Max Rate.vi" Type="VI" URL="../../../../../sdi_12/Calculate Rate from Num Channels and Max Rate.vi"/>
-			<Item Name="CALIBRATE 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/CALIBRATE 2016.vi"/>
-			<Item Name="Calibrate pH Sensor.vi" Type="VI" URL="../../../../../sdi_12/SDI-12/Public/Utility/Calibrate pH Sensor.vi"/>
-			<Item Name="CALIBRATION_SUMMARY.vi" Type="VI" URL="../../../../../KPRO_lv2015/utilities/CALIBRATION_SUMMARY.vi"/>
+			<Item Name="Array to Graph 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Array to Graph 2016.vi"/>
+			<Item Name="Array to Plot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Array to Plot 2016.vi"/>
+			<Item Name="Aux Sensor.ctl" Type="VI" URL="../controls/Aux Sensor.ctl"/>
+			<Item Name="boolean debounce 2016.vi" Type="VI" URL="../KPRO_2016 subvis/boolean debounce 2016.vi"/>
+			<Item Name="Boxcar filter2016.vi" Type="VI" URL="../KPRO_2016 subvis/Boxcar filter2016.vi"/>
+			<Item Name="CAL_FLOW_SENSOR 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CAL_FLOW_SENSOR 2016.vi"/>
+			<Item Name="CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CAL_PRESSURE_TRANSDUCER 2016.vi"/>
+			<Item Name="Calculate Rate from Num Channels and Max Rate.vi" Type="VI" URL="../sdi_12/Calculate Rate from Num Channels and Max Rate.vi"/>
+			<Item Name="calculate sonde parameter cluster.vi" Type="VI" URL="../sdi_12/calculate sonde parameter cluster.vi"/>
+			<Item Name="CALIBRATE 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATE 2016.vi"/>
+			<Item Name="Calibrate ORP Sensor.vi" Type="VI" URL="../sdi_12/Calibrate ORP Sensor.vi"/>
+			<Item Name="Calibrate pH Sensor.vi" Type="VI" URL="../sdi_12/Calibrate pH Sensor.vi"/>
+			<Item Name="Calibrate Salinity Sensor.vi" Type="VI" URL="../sdi_12/Calibrate Salinity Sensor.vi"/>
+			<Item Name="Calibrate SC Sensor.vi" Type="VI" URL="../sdi_12/Calibrate SC Sensor.vi"/>
+			<Item Name="CALIBRATION_SUMMARY.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATION_SUMMARY.vi"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="close excel file if open.vi" Type="VI" URL="../../../../../sdi_12/close excel file if open.vi"/>
-			<Item Name="convert sensor voltage to real measurements.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/convert sensor voltage to real measurements.vi"/>
-			<Item Name="copy excel template.vi" Type="VI" URL="../../../../../sdi_12/copy excel template.vi"/>
-			<Item Name="correct depth etc 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/correct depth etc 2016.vi"/>
-			<Item Name="create DAQ strings.vi" Type="VI" URL="../../../../../Waterloo DAQ/create DAQ strings.vi"/>
-			<Item Name="Create Sonde Info String Array.vi" Type="VI" URL="../../../../../sdi_12/Create Sonde Info String Array.vi"/>
-			<Item Name="Depth and Stainless Correction Pop Up 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Depth and Stainless Correction Pop Up 2016.vi"/>
-			<Item Name="depth rate 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/depth rate 2016.vi"/>
-			<Item Name="depth rate.vi" Type="VI" URL="../../../../../KPRO_lv2015/utilities/depth rate.vi"/>
-			<Item Name="depth read from string pot 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/depth read from string pot 2016.vi"/>
-			<Item Name="depth threshold test 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/depth threshold test 2016.vi"/>
-			<Item Name="DHT Pressure 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/DHT Pressure 2016.vi"/>
-			<Item Name="excel label to row and column.vi" Type="VI" URL="../../../../../sdi_12/excel label to row and column.vi"/>
-			<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
-			<Item Name="find and open select worksheet.vi" Type="VI" URL="../../../../../sdi_12/find and open select worksheet.vi"/>
-			<Item Name="find last occupied cell.vi" Type="VI" URL="../../../../../sdi_12/find last occupied cell.vi"/>
-			<Item Name="find worksheet index from name.vi" Type="VI" URL="../../../../../sdi_12/find worksheet index from name.vi"/>
-			<Item Name="Flow 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Flow 2016.vi"/>
-			<Item Name="format into Sonde Vertical Graph Data Input.vi" Type="VI" URL="../../../../../sdi_12/format into Sonde Vertical Graph Data Input.vi"/>
-			<Item Name="format time SDI data into XY plot input.vi" Type="VI" URL="../../../../../sdi_12/format time SDI data into XY plot input.vi"/>
-			<Item Name="get 9V monitor voltage.vi" Type="VI" URL="../../../../../Waterloo DAQ/get 9V monitor voltage.vi"/>
-			<Item Name="get sample header columns.vi" Type="VI" URL="../../../../../sdi_12/get sample header columns.vi"/>
-			<Item Name="get sample sheet data cells.vi" Type="VI" URL="../../../../../sdi_12/get sample sheet data cells.vi"/>
-			<Item Name="Get_KPRO_data_from_file 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Get_KPRO_data_from_file 2016.vi"/>
-			<Item Name="Get_SLOPE_data_from_file 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Get_SLOPE_data_from_file 2016.vi"/>
-			<Item Name="Global_SIM_switch.vi" Type="VI" URL="../../../../../KPRO_lv2015/ad interface/Global_SIM_switch.vi"/>
-			<Item Name="Groundwater header.ctl" Type="VI" URL="../../../../../sdi_12/Groundwater header.ctl"/>
-			<Item Name="groundwater log header.vi" Type="VI" URL="../../../../../sdi_12/groundwater log header.vi"/>
-			<Item Name="In-Line-Pressure 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/In-Line-Pressure 2016.vi"/>
-			<Item Name="Insert date time into cell.vi" Type="VI" URL="../../../../../sdi_12/Insert date time into cell.vi"/>
+			<Item Name="close excel file if open.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/close excel file if open.vi"/>
+			<Item Name="Control 2.ctl" Type="VI" URL="../KPRO_2016 subvis/Control 2.ctl"/>
+			<Item Name="convert sensor voltage to real measurements.vi" Type="VI" URL="../KPRO_2016 subvis/convert sensor voltage to real measurements.vi"/>
+			<Item Name="copy excel template.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/copy excel template.vi"/>
+			<Item Name="correct depth etc 2016.vi" Type="VI" URL="../KPRO_2016 subvis/correct depth etc 2016.vi"/>
+			<Item Name="create DAQ strings.vi" Type="VI" URL="../create DAQ strings.vi"/>
+			<Item Name="Create Sonde Info String Array.vi" Type="VI" URL="../sdi_12/Create Sonde Info String Array.vi"/>
+			<Item Name="Depth and Stainless Correction Pop Up 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Depth and Stainless Correction Pop Up 2016.vi"/>
+			<Item Name="depth rate 2016.vi" Type="VI" URL="../KPRO_2016 subvis/depth rate 2016.vi"/>
+			<Item Name="depth read from string pot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/depth read from string pot 2016.vi"/>
+			<Item Name="depth threshold test 2016.vi" Type="VI" URL="../KPRO_2016 subvis/depth threshold test 2016.vi"/>
+			<Item Name="DHT Pressure 2016.vi" Type="VI" URL="../KPRO_2016 subvis/DHT Pressure 2016.vi"/>
+			<Item Name="excel label to row and column.vi" Type="VI" URL="../sdi_12/excel label to row and column.vi"/>
+			<Item Name="find and open select worksheet.vi" Type="VI" URL="../sdi_12/find and open select worksheet.vi"/>
+			<Item Name="find last occupied cell.vi" Type="VI" URL="../sdi_12/find last occupied cell.vi"/>
+			<Item Name="find worksheet index from name.vi" Type="VI" URL="../sdi_12/find worksheet index from name.vi"/>
+			<Item Name="Flow 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Flow 2016.vi"/>
+			<Item Name="format into Sonde Vertical Graph Data Input.vi" Type="VI" URL="../sdi_12/format into Sonde Vertical Graph Data Input.vi"/>
+			<Item Name="format time SDI data into XY plot input.vi" Type="VI" URL="../sdi_12/format time SDI data into XY plot input.vi"/>
+			<Item Name="Generate Array Row 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Generate Array Row 2016.vi"/>
+			<Item Name="get 9V monitor voltage.vi" Type="VI" URL="../get 9V monitor voltage.vi"/>
+			<Item Name="get sample header columns.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/get sample header columns.vi"/>
+			<Item Name="get sample sheet data cells.vi" Type="VI" URL="../sdi_12/get sample sheet data cells.vi"/>
+			<Item Name="Get_KPRO_data_from_file 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Get_KPRO_data_from_file 2016.vi"/>
+			<Item Name="Get_SLOPE_data_from_file 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Get_SLOPE_data_from_file 2016.vi"/>
+			<Item Name="Global_SIM_switch.vi" Type="VI" URL="../KPRO_2016 subvis/Global_SIM_switch.vi"/>
+			<Item Name="Groundwater header.ctl" Type="VI" URL="../sdi_12/Groundwater header.ctl"/>
+			<Item Name="In-Line-Pressure 2016.vi" Type="VI" URL="../KPRO_2016 subvis/In-Line-Pressure 2016.vi"/>
+			<Item Name="Insert date time into cell.vi" Type="VI" URL="../sdi_12/Insert date time into cell.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Kpro Globals.vi" Type="VI" URL="../../../../../KPRO_lv2015/Kpro Globals.vi"/>
-			<Item Name="Kpro pressure measurement cluster.ctl" Type="VI" URL="../../../../../Waterloo DAQ/controls/Kpro pressure measurement cluster.ctl"/>
+			<Item Name="Kpro Globals.vi" Type="VI" URL="../KPRO_2016 subvis/Kpro Globals.vi"/>
+			<Item Name="Kpro hydraulic measurement cluster.ctl" Type="VI" URL="../controls/Kpro hydraulic measurement cluster.ctl"/>
+			<Item Name="Kpro pressure measurement cluster.ctl" Type="VI" URL="../controls/Kpro pressure measurement cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="measure down hole pressure and save to csv file.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/measure down hole pressure and save to csv file.vi"/>
-			<Item Name="open excel get worksheet names.vi" Type="VI" URL="../../../../../sdi_12/open excel get worksheet names.vi"/>
-			<Item Name="open select sample sheet.vi" Type="VI" URL="../../../../../sdi_12/open select sample sheet.vi"/>
-			<Item Name="Physical Channels to Number of channels.vi" Type="VI" URL="../../../../../sdi_12/Physical Channels to Number of channels.vi"/>
+			<Item Name="open excel get worksheet names.vi" Type="VI" URL="../sdi_12/open excel get worksheet names.vi"/>
+			<Item Name="open select sample sheet.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/open select sample sheet.vi"/>
+			<Item Name="Physical Channels to Number of channels.vi" Type="VI" URL="../sdi_12/Physical Channels to Number of channels.vi"/>
 			<Item Name="Pipe1Logic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/Pipe1Logic/Pipe1Logic.lvclass"/>
-			<Item Name="populate sonde row cluster from sonde data cluster.vi" Type="VI" URL="../../../../../sdi_12/populate sonde row cluster from sonde data cluster.vi"/>
-			<Item Name="prepend time to sonde data array.vi" Type="VI" URL="../../../../../sdi_12/prepend time to sonde data array.vi"/>
-			<Item Name="pressure and IK2 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/pressure and IK2 2016.vi"/>
-			<Item Name="pressure and IK2.vi" Type="VI" URL="../../../../../KPRO_lv2015/utilities/pressure and IK2.vi"/>
-			<Item Name="prompt_and_enter_value 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/prompt_and_enter_value 2016.vi"/>
-			<Item Name="prompt_and_enter_value2.vi" Type="VI" URL="../../../../../KPRO_lv2015/utilities/prompt_and_enter_value2.vi"/>
-			<Item Name="prompt_string.vi" Type="VI" URL="../../../../../KPRO_lv2015/utilities/prompt_string.vi"/>
-			<Item Name="RANDOM_RANGE.vi" Type="VI" URL="../../../../../KPRO_lv2015/ad interface/RANDOM_RANGE.vi"/>
-			<Item Name="read 12V monitor from Z SDI-12 address.vi" Type="VI" URL="../../../../../sdi_12/read 12V monitor from Z SDI-12 address.vi"/>
-			<Item Name="sample data row cluster.ctl" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/sample data row cluster.ctl"/>
-			<Item Name="SDI-12 Continuous Operations.vi" Type="VI" URL="../../../../../sdi_12/SDI-12 Continuous Operations.vi"/>
-			<Item Name="SDI-12 Single Operation with output cluster.vi" Type="VI" URL="../../../../../sdi_12/SDI-12 Single Operation with output cluster.vi"/>
-			<Item Name="SDI-12 Single Operation.vi" Type="VI" URL="../../../../../sdi_12/SDI-12 Single Operation.vi"/>
-			<Item Name="SDI-12.lvlib" Type="Library" URL="../../../../../sdi_12/SDI-12/SDI-12.lvlib"/>
-			<Item Name="search for com resources.vi" Type="VI" URL="../../../../../sdi_12/search for com resources.vi"/>
-			<Item Name="search for Quanta Sonde devices.vi" Type="VI" URL="../../../../../sdi_12/search for Quanta Sonde devices.vi"/>
-			<Item Name="Send Identification.vi" Type="VI" URL="../../../../../sdi_12/SDI-12/Public/Utility/Send Identification.vi"/>
-			<Item Name="Sensor Physical Measurements.ctl" Type="VI" URL="../../../../../KPRO_2016 subvis/Sensor Physical Measurements.ctl"/>
-			<Item Name="SIM_Flow.vi" Type="VI" URL="../../../../../KPRO_lv2015/ad interface/SIM_Flow.vi"/>
-			<Item Name="SIM_Pressure.vi" Type="VI" URL="../../../../../KPRO_lv2015/ad interface/SIM_Pressure.vi"/>
-			<Item Name="SIM_String Pot.vi" Type="VI" URL="../../../../../KPRO_lv2015/ad interface/SIM_String Pot.vi"/>
-			<Item Name="sonde cluster.ctl" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/sonde cluster.ctl"/>
-			<Item Name="Sonde Measurement Array to Cluster.vi" Type="VI" URL="../../../../../sdi_12/Sonde Measurement Array to Cluster.vi"/>
-			<Item Name="Sonde Vertical Graph.ctl" Type="VI" URL="../../../../../sdi_12/SDI-12/Sonde Vertical Graph.ctl"/>
-			<Item Name="String Pot 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/String Pot 2016.vi"/>
-			<Item Name="STRING_POT_CAL 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/STRING_POT_CAL 2016.vi"/>
-			<Item Name="Turn On Sensors.vi" Type="VI" URL="../../../../../sdi_12/Turn On Sensors.vi"/>
-			<Item Name="up hole Pressure 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/up hole Pressure 2016.vi"/>
-			<Item Name="Up Hole PRESSURE_CAL 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/Up Hole PRESSURE_CAL 2016.vi"/>
-			<Item Name="Vertical Chart.ctl" Type="VI" URL="../../../../../Waterloo DAQ/controls/Vertical Chart.ctl"/>
-			<Item Name="volume integrator 2016.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/volume integrator 2016.vi"/>
-			<Item Name="Write Cell and Format.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/Write Cell and Format.vi"/>
-			<Item Name="Write Cell string and Format Border.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/Write Cell string and Format Border.vi"/>
-			<Item Name="write Cell String to excel location.vi" Type="VI" URL="../../../../../sdi_12/write Cell String to excel location.vi"/>
-			<Item Name="write comment cell with column offset.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write comment cell with column offset.vi"/>
-			<Item Name="write data cell with column offset.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write data cell with column offset.vi"/>
-			<Item Name="write KPRO file.vi" Type="VI" URL="../../../../../KPRO_2016 subvis/write KPRO file.vi"/>
-			<Item Name="write out sonde data.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write out sonde data.vi"/>
-			<Item Name="write out sonde row.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write out sonde row.vi"/>
-			<Item Name="write time cell with column offset.vi" Type="VI" URL="../../../../../activeXtest/activeXtest 2015 Folder/write time cell with column offset.vi"/>
+			<Item Name="populate sonde row cluster from sonde data cluster.vi" Type="VI" URL="../sdi_12/populate sonde row cluster from sonde data cluster.vi"/>
+			<Item Name="prepend time to sonde data array.vi" Type="VI" URL="../sdi_12/prepend time to sonde data array.vi"/>
+			<Item Name="pressure and IK2 2016.vi" Type="VI" URL="../KPRO_2016 subvis/pressure and IK2 2016.vi"/>
+			<Item Name="pressure and IK2.vi" Type="VI" URL="../KPRO_2016 subvis/pressure and IK2.vi"/>
+			<Item Name="prompt_and_enter_value 2016.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_and_enter_value 2016.vi"/>
+			<Item Name="prompt_and_enter_value2.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_and_enter_value2.vi"/>
+			<Item Name="prompt_string.vi" Type="VI" URL="../KPRO_2016 subvis/prompt_string.vi"/>
+			<Item Name="RANDOM_RANGE.vi" Type="VI" URL="../KPRO_2016 subvis/RANDOM_RANGE.vi"/>
+			<Item Name="read 12V monitor from Z SDI-12 address.vi" Type="VI" URL="../sdi_12/read 12V monitor from Z SDI-12 address.vi"/>
+			<Item Name="sample data row cluster.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sample data row cluster.ctl"/>
+			<Item Name="SDI-12 Continuous Operations.vi" Type="VI" URL="../sdi_12/SDI-12 Continuous Operations.vi"/>
+			<Item Name="SDI-12 Single Operation with output cluster.vi" Type="VI" URL="../sdi_12/SDI-12 Single Operation with output cluster.vi"/>
+			<Item Name="SDI-12 Single Operation.vi" Type="VI" URL="../sdi_12/SDI-12 Single Operation.vi"/>
+			<Item Name="search for com resources.vi" Type="VI" URL="../sdi_12/search for com resources.vi"/>
+			<Item Name="search for Quanta Sonde devices.vi" Type="VI" URL="../sdi_12/search for Quanta Sonde devices.vi"/>
+			<Item Name="Send Identification.vi" Type="VI" URL="../sdi_12/SDI-12/Public/Utility/Send Identification.vi"/>
+			<Item Name="Sensor Physical Measurements.ctl" Type="VI" URL="../KPRO_2016 subvis/Sensor Physical Measurements.ctl"/>
+			<Item Name="SIM_Flow.vi" Type="VI" URL="../KPRO_2016 subvis/SIM_Flow.vi"/>
+			<Item Name="SIM_Pressure.vi" Type="VI" URL="../KPRO_2016 subvis/SIM_Pressure.vi"/>
+			<Item Name="SIM_String Pot2016.vi" Type="VI" URL="../KPRO_2016 subvis/SIM_String Pot2016.vi"/>
+			<Item Name="sonde cluster.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster.ctl"/>
+			<Item Name="Sonde Measurement Array to Cluster.vi" Type="VI" URL="../sdi_12/Sonde Measurement Array to Cluster.vi"/>
+			<Item Name="Sonde Value Percent Tol.ctl" Type="VI" URL="../sdi_12/Sonde Value Percent Tol.ctl"/>
+			<Item Name="Sonde Vertical Graph.ctl" Type="VI" URL="../sdi_12/SDI-12/Sonde Vertical Graph.ctl"/>
+			<Item Name="String Pot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/String Pot 2016.vi"/>
+			<Item Name="STRING_POT_CAL 2016.vi" Type="VI" URL="../KPRO_2016 subvis/STRING_POT_CAL 2016.vi"/>
+			<Item Name="Turn On Sensors.vi" Type="VI" URL="../sdi_12/Turn On Sensors.vi"/>
+			<Item Name="up hole Pressure 2016.vi" Type="VI" URL="../KPRO_2016 subvis/up hole Pressure 2016.vi"/>
+			<Item Name="Vertical Chart.ctl" Type="VI" URL="../controls/Vertical Chart.ctl"/>
+			<Item Name="volume integrator 2016.vi" Type="VI" URL="../KPRO_2016 subvis/volume integrator 2016.vi"/>
+			<Item Name="Write Cell and Format.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/Write Cell and Format.vi"/>
+			<Item Name="Write Cell string and Format Border.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/Write Cell string and Format Border.vi"/>
+			<Item Name="write Cell String to excel location.vi" Type="VI" URL="../sdi_12/write Cell String to excel location.vi"/>
+			<Item Name="write comment cell with column offset.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write comment cell with column offset.vi"/>
+			<Item Name="write data cell with column offset.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write data cell with column offset.vi"/>
+			<Item Name="write KPRO file.vi" Type="VI" URL="../KPRO_2016 subvis/write KPRO file.vi"/>
+			<Item Name="write out sonde data.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write out sonde data.vi"/>
+			<Item Name="write time cell with column offset.vi" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/write time cell with column offset.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="cascade" Type="EXE">
@@ -440,7 +438,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade/Cascade.exe</Property>
@@ -449,7 +447,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{647DDB96-D357-4E8F-8781-BEF47D910027}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CA145DB5-A265-48D4-9C4A-C4693A94C5A7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cascade front panel.vi</Property>
