@@ -14,6 +14,12 @@
 		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
 		<Item Name="calculate current depth.vi" Type="VI" URL="../KPRO_2016 subvis/calculate current depth.vi"/>
 		<Item Name="Calibrate DO Sensor.vi" Type="VI" URL="../sdi_12/Calibrate DO Sensor.vi"/>
+		<Item Name="Calibrate DO Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate DO Sensor2.vi"/>
+		<Item Name="Calibrate ORP Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate ORP Sensor2.vi"/>
+		<Item Name="Calibrate PH Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate PH Sensor2.vi"/>
+		<Item Name="Calibrate Salinity Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate Salinity Sensor2.vi"/>
+		<Item Name="Calibrate SC Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate SC Sensor2.vi"/>
+		<Item Name="Calibrate Sonde Sensor.vi" Type="VI" URL="../sdi_12/Calibrate Sonde Sensor.vi"/>
 		<Item Name="Cascade front panel.vi" Type="VI" URL="../Cascade front panel.vi"/>
 		<Item Name="cell pair to sonde value cluster.vi" Type="VI" URL="../sdi_12/cell pair to sonde value cluster.vi"/>
 		<Item Name="Control 9.ctl" Type="VI" URL="../KPRO_2016 subvis/Control 9.ctl"/>
@@ -328,17 +334,13 @@
 			<Item Name="Array to Graph 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Array to Graph 2016.vi"/>
 			<Item Name="Array to Plot 2016.vi" Type="VI" URL="../KPRO_2016 subvis/Array to Plot 2016.vi"/>
 			<Item Name="Aux Sensor.ctl" Type="VI" URL="../controls/Aux Sensor.ctl"/>
-			<Item Name="boolean debounce 2016.vi" Type="VI" URL="../KPRO_2016 subvis/boolean debounce 2016.vi"/>
 			<Item Name="Boxcar filter2016.vi" Type="VI" URL="../KPRO_2016 subvis/Boxcar filter2016.vi"/>
 			<Item Name="CAL_FLOW_SENSOR 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CAL_FLOW_SENSOR 2016.vi"/>
 			<Item Name="CAL_PRESSURE_TRANSDUCER 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CAL_PRESSURE_TRANSDUCER 2016.vi"/>
 			<Item Name="Calculate Rate from Num Channels and Max Rate.vi" Type="VI" URL="../sdi_12/Calculate Rate from Num Channels and Max Rate.vi"/>
 			<Item Name="calculate sonde parameter cluster.vi" Type="VI" URL="../sdi_12/calculate sonde parameter cluster.vi"/>
 			<Item Name="CALIBRATE 2016.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATE 2016.vi"/>
-			<Item Name="Calibrate ORP Sensor.vi" Type="VI" URL="../sdi_12/Calibrate ORP Sensor.vi"/>
 			<Item Name="Calibrate pH Sensor.vi" Type="VI" URL="../sdi_12/Calibrate pH Sensor.vi"/>
-			<Item Name="Calibrate Salinity Sensor.vi" Type="VI" URL="../sdi_12/Calibrate Salinity Sensor.vi"/>
-			<Item Name="Calibrate SC Sensor.vi" Type="VI" URL="../sdi_12/Calibrate SC Sensor.vi"/>
 			<Item Name="CALIBRATION_SUMMARY.vi" Type="VI" URL="../KPRO_2016 subvis/CALIBRATION_SUMMARY.vi"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
@@ -438,7 +440,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade/Cascade.exe</Property>
