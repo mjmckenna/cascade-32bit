@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Action Control 1.ctl" Type="VI" URL="../controls/Action Control 1.ctl"/>
+		<Item Name="append filename to Cascade csv data file.vi" Type="VI" URL="../append filename to Cascade csv data file.vi"/>
 		<Item Name="append to kpro data array 2016.vi" Type="VI" URL="../KPRO_2016 subvis/append to kpro data array 2016.vi"/>
 		<Item Name="calculate current depth.vi" Type="VI" URL="../KPRO_2016 subvis/calculate current depth.vi"/>
 		<Item Name="Calibrate DO Sensor.vi" Type="VI" URL="../sdi_12/Calibrate DO Sensor.vi"/>
@@ -25,6 +26,8 @@
 		<Item Name="Control 9.ctl" Type="VI" URL="../KPRO_2016 subvis/Control 9.ctl"/>
 		<Item Name="convert cell pair to dbl.vi" Type="VI" URL="../sdi_12/convert cell pair to dbl.vi"/>
 		<Item Name="convert cell to dbl.vi" Type="VI" URL="../sdi_12/convert cell to dbl.vi"/>
+		<Item Name="convert sonde cluster to spreadsheet array.vi" Type="VI" URL="../convert sonde cluster to spreadsheet array.vi"/>
+		<Item Name="create slopes paths.vi" Type="VI" URL="../create slopes paths.vi"/>
 		<Item Name="Depth Control.ctl" Type="VI" URL="../KPRO_2016 subvis/Depth Control.ctl"/>
 		<Item Name="Drive Rate Control 5.ctl" Type="VI" URL="../KPRO_2016 subvis/Drive Rate Control 5.ctl"/>
 		<Item Name="FILE_DIALOG 2016.vi" Type="VI" URL="../KPRO_2016 subvis/FILE_DIALOG 2016.vi"/>
@@ -50,6 +53,7 @@
 		<Item Name="SDI-12.lvlib" Type="Library" URL="../sdi_12/SDI-12/SDI-12.lvlib"/>
 		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../sdi_12/Send  Sensor Calibration.vi"/>
 		<Item Name="send calibration value loop.vi" Type="VI" URL="../sdi_12/send calibration value loop.vi"/>
+		<Item Name="slopes file test.vi" Type="VI" URL="../slopes file test.vi"/>
 		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
 		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../KPRO_2016 subvis/SS Control 7.ctl"/>
@@ -77,10 +81,12 @@
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
-				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
-				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
+				<Item Name="Copy with Options__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Copy with Options__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
 				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
+				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
+				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
+				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
 				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
 				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
 				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
@@ -236,6 +242,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
