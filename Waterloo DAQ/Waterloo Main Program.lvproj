@@ -21,6 +21,7 @@
 		<Item Name="Calibrate Salinity Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate Salinity Sensor2.vi"/>
 		<Item Name="Calibrate SC Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate SC Sensor2.vi"/>
 		<Item Name="Calibrate Sonde Sensor.vi" Type="VI" URL="../sdi_12/Calibrate Sonde Sensor.vi"/>
+		<Item Name="Cascade front panel-blockissues.vi" Type="VI" URL="../Cascade front panel-blockissues.vi"/>
 		<Item Name="Cascade front panel.vi" Type="VI" URL="../Cascade front panel.vi"/>
 		<Item Name="cell pair to sonde value cluster.vi" Type="VI" URL="../sdi_12/cell pair to sonde value cluster.vi"/>
 		<Item Name="Control 9.ctl" Type="VI" URL="../KPRO_2016 subvis/Control 9.ctl"/>
