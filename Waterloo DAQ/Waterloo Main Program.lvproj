@@ -54,6 +54,7 @@
 		<Item Name="SDI-12.lvlib" Type="Library" URL="../sdi_12/SDI-12/SDI-12.lvlib"/>
 		<Item Name="Send  Sensor Calibration.vi" Type="VI" URL="../sdi_12/Send  Sensor Calibration.vi"/>
 		<Item Name="send calibration value loop.vi" Type="VI" URL="../sdi_12/send calibration value loop.vi"/>
+		<Item Name="setup excel worksheet.vi" Type="VI" URL="../setup excel worksheet.vi"/>
 		<Item Name="slopes file test.vi" Type="VI" URL="../slopes file test.vi"/>
 		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
 		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
@@ -82,6 +83,9 @@
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
+				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
+				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
 				<Item Name="Copy with Options__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Copy with Options__ogtk.vi"/>
 				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
 				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
