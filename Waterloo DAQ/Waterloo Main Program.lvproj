@@ -21,7 +21,6 @@
 		<Item Name="Calibrate Salinity Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate Salinity Sensor2.vi"/>
 		<Item Name="Calibrate SC Sensor2.vi" Type="VI" URL="../sdi_12/Calibrate SC Sensor2.vi"/>
 		<Item Name="Calibrate Sonde Sensor.vi" Type="VI" URL="../sdi_12/Calibrate Sonde Sensor.vi"/>
-		<Item Name="Cascade front panel-blockissues.vi" Type="VI" URL="../Cascade front panel-blockissues.vi"/>
 		<Item Name="Cascade front panel.vi" Type="VI" URL="../Cascade front panel.vi"/>
 		<Item Name="cell pair to sonde value cluster.vi" Type="VI" URL="../sdi_12/cell pair to sonde value cluster.vi"/>
 		<Item Name="Control 9.ctl" Type="VI" URL="../KPRO_2016 subvis/Control 9.ctl"/>
@@ -452,7 +451,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DDF36D5-B19D-4283-90B2-DD672ABDF470}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Cascade.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/cascade/Cascade.exe</Property>
