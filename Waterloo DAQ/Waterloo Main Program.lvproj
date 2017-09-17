@@ -55,6 +55,7 @@
 		<Item Name="send calibration value loop.vi" Type="VI" URL="../sdi_12/send calibration value loop.vi"/>
 		<Item Name="setup excel worksheet.vi" Type="VI" URL="../setup excel worksheet.vi"/>
 		<Item Name="slopes file test.vi" Type="VI" URL="../slopes file test.vi"/>
+		<Item Name="sonde calibration control.ctl" Type="VI" URL="../controls/sonde calibration control.ctl"/>
 		<Item Name="sonde cluster from excel.ctl" Type="VI" URL="../activeXtest/activeXtest 2015 Folder/sonde cluster from excel.ctl"/>
 		<Item Name="Sonde Single Measurement Subvi.vi" Type="VI" URL="../KPRO_2016 subvis/Sonde Single Measurement Subvi.vi"/>
 		<Item Name="SS Control 7.ctl" Type="VI" URL="../KPRO_2016 subvis/SS Control 7.ctl"/>
